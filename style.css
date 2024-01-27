@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background-color: #d9c8aa ;
+}
+
+.meu-card{
+
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+    box-shadow: 0px 35px 80px black;
+    transition: 0.5s;
+    margin-top: 160px;
+}
+
+.meu-card:hover{
+
+    height: 400px;
+
+}
+
+.meu-card .imagem{
+
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 0px;
+    transition: 0.5s;
+
+}
+
+.meu-card:hover .imagem{
+
+    top: -100px;
+    scale: 0.75;
+
+
+}
+
+
+.meu-card .imagem img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.meu-card .content{
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.meu-card:hover .content{
+
+    top: 130px;
+    height: 250px;
+
+}
+
+.meu-card .meu-portifolio{
+
+    background-color: #1F75FE ;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    border: 8px;
+
+}
+
+
+h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #1F75FE;
+
+}
+
+
+
+
